@@ -1,7 +1,7 @@
 # Maintainer: Jason McNeil <jason@jasonrm.net>
 
 pkgname=nfs-ganesha
-pkgver=2.5.dev.16.r0.g7808ba522
+pkgver=2.4.3
 pkgrel=1
 pkgdesc='NFS-Ganesha is an NFSv3,v4,v4.1 fileserver that runs in user mode on most UNIX/Linux systems'
 arch=('x86_64')
