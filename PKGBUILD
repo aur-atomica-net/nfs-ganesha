@@ -20,7 +20,6 @@ source=('git+https://github.com/nfs-ganesha/nfs-ganesha.git')
 sha256sums=('SKIP')
 
 prepare() {
-    sudo pacman --needed --noconfirm -U ceph-git-1:12.0.0.1019.g4ac46fb1b2-1-x86_64.pkg.tar.xz
     cd "${srcdir}"/"$pkgname"
     git checkout "V${pkgver}"
     git submodule update --init
